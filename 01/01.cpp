@@ -11,5 +11,6 @@ int main()
 	std::cin >> name;
 	g->greet(name);
 	std::system("pause");
+	delete g;
 	return 0;
 }
